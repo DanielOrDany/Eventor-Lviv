@@ -167,7 +167,7 @@ public class Bot extends TelegramLongPollingBot {
                     {
                         Driver driver = new FabricMySQLDriver();
                         DriverManager.registerDriver(driver);
-                        connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/eventor", "root", "rooot");
+                        connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/name", "ps", "ps");
                         if (!connection.isClosed()) {
                             Statement statement = connection.createStatement();
                             ResultSet weekSet;
@@ -343,7 +343,7 @@ public class Bot extends TelegramLongPollingBot {
 
         public String getBotToken ()
         {
-            return "635921682:AAFUk8LS51wda3JQ02LSN3N3kOVHscGK8-c";
+            return "***********************";
         }
 
 
